@@ -7908,7 +7908,7 @@ Webflow.define('brand', module.exports = function ($) {
   }
 
   function createBadge() {
-    var $brand = $('<a class="w-webflow-badge"></a>').attr('href', '');
+    var $brand = $('<a class=""></a>').attr('href', '');
     var $logoArt = $('<img>').attr('src', '').attr('alt', '').css({
       marginRight: '8px',
       width: '16px'
